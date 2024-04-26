@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+table, td, th {
+    border: 1px solid lightgrey;
+  }
+  
+  table {
+    margin-top: 5%;
+    width: 100%;
+    border-collapse: collapse;
+  }
+.displayButtons{
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 10px;
+    width: 70px;
+}
+.deleteButton{
+    border: 1px solid red;
+    color: red;
+}
+.editButton{
+    border: 1px solid green;
+    color: green;
+}
+.submitButton{
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(35, 84, 221);
+    border: none;
+    width: 10%;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+label {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+input, select {
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+}
+.showCategoryExpenses{
+    margin-top:20px;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid lightgrey;
+}
